@@ -1,16 +1,16 @@
 const GUEST_LOGINS = {
-    customer : {
+    customer: {
         username: 'andrey',
         password: 'asdasd'
     },
-    business : {
+    business: {
         username: 'kevin',
         password: 'asdasd24'
     }
-}
+};
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/';
-const STATIC_BASE_URL = 'http://127.0.0.1:8000/';
+const API_BASE_URL = 'http://backend.jan-holtschke.de/be-coderr/api/';
+const STATIC_BASE_URL = 'http://backend.jan-holtschke.de/be-coderr/';
 
 
 const LOGIN_URL = 'login/';
@@ -36,4 +36,4 @@ const BASE_INFO_URL = 'base-info/';
 const OFFER_INPROGRESS_COUNT_URL = 'order-count/';
 const OFFER_COMPLETED_COUNT_URL = 'completed-order-count/';
 
-const PAGE_SIZE = 6
+const PAGE_SIZE = 6;
