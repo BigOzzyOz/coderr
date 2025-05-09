@@ -9,8 +9,8 @@ const GUEST_LOGINS = {
     }
 };
 
-const API_BASE_URL = 'http://backend.jan-holtschke.de/be-coderr/api/';
-const STATIC_BASE_URL = 'http://backend.jan-holtschke.de/be-coderr/';
+const API_BASE_URL = 'https://backend.jan-holtschke.de/be-coderr/api/';
+const STATIC_BASE_URL = 'https://backend.jan-holtschke.de/be-coderr/';
 
 
 const LOGIN_URL = 'login/';
